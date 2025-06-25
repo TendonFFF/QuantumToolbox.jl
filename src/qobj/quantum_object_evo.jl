@@ -512,8 +512,8 @@ function (A::QuantumObjectEvolution)(
         )
     end
 
-    A.data(ψout.data, ψin.data, p, t)
-
+    update_coefficients!(A.data, 0, p, t)
+    mul!(ψout.data, A.data, ψin.data)
     return ψout
 end
 
