@@ -94,6 +94,7 @@ In order to get a better experience and take full advantage of `QuantumToolbox`
   - [`LinearSolve.jl`](https://github.com/SciML/LinearSolve.jl)
 - GPU support:
   - [`CUDA.jl`](https://github.com/JuliaGPU/CUDA.jl)
+  - [`AMDGPU.jl`](https://github.com/JuliaGPU/AMDGPU.jl)
 - Distributed Computing support:
   - [`Distributed.jl`](https://github.com/JuliaLang/Distributed.jl)
   - [`SlurmClusterManager.jl`](https://github.com/JuliaParallel/SlurmClusterManager.jl)
